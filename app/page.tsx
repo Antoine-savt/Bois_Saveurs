@@ -86,7 +86,7 @@ export default function Home() {
                 target.style.display = 'none';
               }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-wood-dark/80 to-transparent flex items-end p-8">
+            <div className="absolute inset-0 bg-wood-dark/80 flex items-end p-8">
               <div className="text-white">
                 <h3 className="text-3xl font-bold mb-2">Découvrez notre collection</h3>
                 <Link

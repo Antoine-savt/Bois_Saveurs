@@ -113,17 +113,17 @@ export default function EntretenezVotrePlanche() {
                     {etape.numero}
                   </div>
                 </div>
-                <h2 className="text-xl font-bold text-wood-dark mb-3 text-center">
+                <h2 className="text-2xl font-bold text-wood-dark mb-3 text-center">
                   {etape.titre}
                 </h2>
-                <p className="text-sm text-wood-medium mb-4 flex-grow text-center">
+                <p className="text-base text-wood-medium mb-4 flex-grow text-center">
                   {etape.description}
                 </p>
                 <div className="bg-accent-beige/30 rounded-lg p-4 flex-grow overflow-y-auto">
-                  <h3 className="font-bold text-wood-dark mb-2 text-sm">Étapes :</h3>
+                  <h3 className="font-bold text-wood-dark mb-2 text-base">Étapes :</h3>
                   <ul className="space-y-2">
                     {etape.details.map((detail, detailIndex) => (
-                      <li key={detailIndex} className="flex items-start text-wood-medium text-xs">
+                      <li key={detailIndex} className="flex items-start text-wood-medium text-sm">
                         <span className="text-accent-green mr-2 mt-0.5 flex-shrink-0">✓</span>
                         <span>{detail}</span>
                       </li>
