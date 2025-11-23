@@ -24,6 +24,7 @@ export default function Header() {
     { href: '/decouvrez-nos-planches', label: 'Découvrez nos planches' },
     { href: '/explorez-les-usages', label: 'Explorez les usages de votre planche' },
     { href: '/entretenez-votre-planche', label: 'Entretenez votre planche' },
+    { href: '/commander', label: 'Commander' },
   ];
 
   return (
@@ -104,7 +105,7 @@ export default function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="block text-wood-dark hover:text-wood-medium transition-colors font-medium"
+                  className="block text-wood-dark hover:text-wood-dark/80 transition-colors font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}

@@ -22,7 +22,7 @@ export default function ExplorezLesUsages() {
     {
       title: 'Présentation de viandes',
       description: 'Votre planche est parfaite pour présenter vos viandes, qu\'elles soient crues ou cuites. Le bois naturel met en valeur la qualité de vos produits et préserve leurs saveurs.',
-      image: getImagePath('/images/usage-viande.jpg'),
+      image: getImagePath('/images/planche1.png'),
       tips: [
         'Disposez les morceaux de viande avec espacement pour un rendu élégant',
         'Ajoutez des herbes fraîches comme le romarin pour la décoration',
