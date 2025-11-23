@@ -42,7 +42,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-wood-dark mb-4">
               Bienvenue chez Bois & Saveurs
             </h2>
-            <p className="text-xl text-wood-medium max-w-3xl mx-auto">
+            <p className="text-xl text-wood-brown max-w-3xl mx-auto">
               Nous créons des planches en bois artisanales qui allient esthétique, 
               fonctionnalité et durabilité. Chaque pièce est unique et raconte une histoire.
             </p>
@@ -62,7 +62,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-wood-dark mb-2">
                   {feature.title}
                 </h3>
-                <p className="text-wood-medium">{feature.description}</p>
+                <p className="text-wood-brown">{feature.description}</p>
               </motion.div>
             ))}
           </div>
@@ -113,14 +113,14 @@ export default function Home() {
               <h2 className="text-4xl font-bold text-wood-dark mb-6">
                 Explorez les multiples usages
               </h2>
-              <p className="text-lg text-wood-medium mb-6">
+              <p className="text-lg text-wood-brown mb-6">
                 Nos planches en bois ne sont pas seulement esthétiques, elles sont aussi 
                 incroyablement polyvalentes. Découvrez toutes les façons créatives d'utiliser 
                 vos planches en cuisine et au-delà.
               </p>
               <Link
                 href="/explorez-les-usages"
-                className="inline-block px-6 py-3 bg-wood-dark text-white rounded-lg font-semibold hover:bg-wood-medium transition-colors"
+                className="inline-block px-6 py-3 bg-wood-dark text-white rounded-lg font-semibold hover:bg-wood-brown transition-colors"
               >
                 En savoir plus
               </Link>
@@ -161,14 +161,14 @@ export default function Home() {
               <h2 className="text-4xl font-bold text-wood-dark mb-6">
                 Entretenez votre planche
               </h2>
-              <p className="text-lg text-wood-medium mb-6">
+              <p className="text-lg text-wood-brown mb-6">
                 Un bon entretien garantit la longévité de votre planche. Apprenez les 
                 meilleures pratiques pour préserver la beauté et la fonctionnalité de 
                 vos planches en bois.
               </p>
               <Link
                 href="/entretenez-votre-planche"
-                className="inline-block px-6 py-3 bg-wood-dark text-white rounded-lg font-semibold hover:bg-wood-medium transition-colors"
+                className="inline-block px-6 py-3 bg-wood-dark text-white rounded-lg font-semibold hover:bg-wood-brown transition-colors"
               >
                 Conseils d'entretien
               </Link>

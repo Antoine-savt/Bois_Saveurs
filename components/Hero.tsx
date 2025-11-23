@@ -29,7 +29,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-xl md:text-2xl text-wood-medium mb-8 max-w-2xl mx-auto"
+          className="text-xl md:text-2xl text-wood-brown mb-8 max-w-2xl mx-auto"
         >
           Découvrez l'artisanat français à travers nos planches en bois d'exception
         </motion.p>
@@ -42,7 +42,7 @@ export default function Hero() {
         >
           <Link
             href="/decouvrez-nos-planches"
-            className="px-8 py-4 bg-wood-dark text-white rounded-lg font-semibold hover:bg-wood-medium transition-colors shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform"
+            className="px-8 py-4 bg-wood-dark text-white rounded-lg font-semibold hover:bg-wood-brown transition-colors shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform"
           >
             Découvrir nos planches
           </Link>
@@ -57,9 +57,6 @@ export default function Hero() {
 
       {/* Overlay pour améliorer la lisibilité */}
       <div className="absolute inset-0 bg-black/20" />
-      
-      {/* Decorative elements */}
-      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent" />
     </section>
   );
 }

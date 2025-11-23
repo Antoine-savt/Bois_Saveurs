@@ -5,7 +5,8 @@
   --foreground: #2c2416;
   --wood-light: #d4a574;
   --wood-medium: #8b6f47;
-  --wood-dark: #5c4a2f;
+  --wood-dark: #5E7C5F;
+  --wood-brown: #5c4a2f;
   --accent-green: #6b8e5a;
   --accent-beige: #e8ddd4;
 }
@@ -16,6 +17,7 @@
   --color-wood-light: var(--wood-light);
   --color-wood-medium: var(--wood-medium);
   --color-wood-dark: var(--wood-dark);
+  --color-wood-brown: var(--wood-brown);
   --color-accent-green: var(--accent-green);
   --color-accent-beige: var(--accent-beige);
   --font-sans: var(--font-geist-sans);
