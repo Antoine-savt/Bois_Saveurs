@@ -24,7 +24,6 @@ export default function Header() {
     { href: '/decouvrez-nos-planches', label: 'Découvrez nos planches' },
     { href: '/explorez-les-usages', label: 'Explorez les usages de votre planche' },
     { href: '/entretenez-votre-planche', label: 'Entretenez votre planche' },
-    { href: '/commander', label: 'Commander' },
   ];
 
   return (
@@ -65,6 +64,18 @@ export default function Header() {
                 </Link>
               </motion.div>
             ))}
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: navItems.length * 0.1 }}
+            >
+              <Link
+                href="/commander"
+                className="px-4 py-2 bg-wood-dark text-white rounded-lg font-semibold hover:bg-wood-dark/90 transition-colors shadow-md hover:shadow-lg"
+              >
+                Commander
+              </Link>
+            </motion.div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -111,6 +122,13 @@ export default function Header() {
                   {item.label}
                 </Link>
               ))}
+              <Link
+                href="/commander"
+                className="block w-full px-4 py-3 bg-wood-dark text-white rounded-lg font-semibold hover:bg-wood-dark/90 transition-colors text-center shadow-md"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Commander
+              </Link>
             </motion.div>
           )}
         </AnimatePresence>
