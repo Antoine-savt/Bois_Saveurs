@@ -18,7 +18,7 @@ export default function Home() {
         </svg>
       ),
     },
-    {
+    { 
       title: 'Qualité premium',
       description: 'Sélection rigoureuse des meilleurs bois pour une durabilité exceptionnelle',
       icon: (
