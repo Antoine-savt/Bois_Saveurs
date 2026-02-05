@@ -1,5 +1,5 @@
 // Base path pour GitHub Pages
-export const BASE_PATH = '/Bois_Saveurs';
+export const BASE_PATH = '';
 
 // Helper pour obtenir le chemin complet d'une image
 export function getImagePath(path: string): string {
